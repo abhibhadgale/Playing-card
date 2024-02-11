@@ -1,0 +1,100 @@
+body{
+    min-height: 100vh;
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: "Titan One", cursive;
+    background-image: url("https://c1.wallpaperflare.com/preview/475/641/167/paper-texture-eco-friendly-invoiced.jpg");
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+h1, h2{
+    color: rgb(170, 18, 18);
+    font-family: "Titan One", cursive;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.buttons a {
+    display: inline-block;
+    width: 200px; /* Adjust the width of the button */
+    height: 200px; /* Adjust the height of the button */
+    margin: 10px;
+}
+
+.buttons a img {
+    display: block;
+    width: 100%; /* Make the image fill the button horizontally */
+    height: 100%; /* Make the image fill the button vertically */
+    object-fit: cover; /* Ensure the entire image is visible within the button */
+}
+
+.sol-btn{
+    border-radius: 30%;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+button:hover {
+    transform: translateY(-5px);
+}
+
+.solitaire-btn {
+    background-color: #007bff;
+    color: #fff;
+    background-image: url("https://w7.pngwing.com/pngs/915/741/png-transparent-patience-game-apple-solitaire-king-ipod-touch-apple-game-text-logo.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: right;
+    padding-right: 40px;
+}
+
+.war-btn {
+    background-color: #28a745;
+    color: #fff;
+    background-image: url("https://lh4.ggpht.com/gx0IPtrfAODWgGt4DKePHGJjjk5W465fWHOVz5ugB_SU6iJ8J8rGxz2zbqstlJN_IA0");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: right;
+    padding-right: 40px;
+    
+}
+*/

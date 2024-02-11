@@ -1,0 +1,95 @@
+body{
+    min-height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/124/961/original/poker-and-casino-playing-card-background-in-red-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+h1{
+    font-family: "Titan One", cursive;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: "Titan One", cursive;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.player1{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 250px;
+    background-image: url("https://opengameart.org/sites/default/files/card%20back%20black.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
+.player2{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 250px;
+    background-image: url("https://opengameart.org/sites/default/files/card%20back%20black.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+
+.game{
+    background-image: url(joker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 250px;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game img{
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.win-board {
+    
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 10px;
+    font-family: "Titan One", cursive;
+    font-size: 35px;
+    color: whitesmoke;
+}
